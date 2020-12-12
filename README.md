@@ -1,7 +1,7 @@
 # Adaptive sparse group lasso regularized semi-continuous zero-inflated model
 
 
-This repo includes R codes to demonstrate the adaptive sparse group lasso regularized semi-continuous zero-inflated model. 
+This repo includes R codes to demonstrate the adaptive sparse group lasso regularized semi-continuous zero-inflated model. The codes use the R package `lsgl` that can be found here: https://github.com/nielsrhansen/lsgl
 
 ```
 source("SCZI_ASGL.R")
