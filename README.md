@@ -32,9 +32,6 @@ After fitting the model, `bic_ASGL_ZI()` can be used to calculate BIC for differ
 bic_res <- bic_ASGL_ZI(model_gamma)
 bic_selected <- which.min(bic_res$bic)
 ```
-
-# For alpha
-
 We can also select alpha using the following codes.
 
 ```
