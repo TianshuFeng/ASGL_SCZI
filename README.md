@@ -55,6 +55,7 @@ for (alpha in 1:9/10) {
 
 ## Result evaluation
 Finally, we calculate the mean squared error and percentage of coefficients correctly selected with the following codes.
+```
 beta_true <- c(dat$true_zero_beta, dat$true_zero_tau)
 B <- matrix(beta_true, ncol = 1)
 
@@ -64,3 +65,4 @@ mse <- sapply(model_gamma_list[[which.min(smallest_bic)]]$model_fit$beta,
 
 percent_correctly_selected <- sapply(model_gamma_list[[which.min(smallest_bic)]]$model_fit$beta, 
                                      function(beta) percent_true_coef(beta_est = beta,  B))
+```
