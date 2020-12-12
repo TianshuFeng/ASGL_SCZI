@@ -15,7 +15,7 @@ First, we use `dataSim()` to simulate data from zero-inflated gamma distribution
 dat <- dataSim(n_obs = 300, n_var = 15,n_fullZero = 7,n_partialZero = 3)
 ```
 
-## Model fitting -----------
+## Model fitting
 
 Simulated dataset is then fitted with `ASGL_ZI()`. Here, the tuning parameter `alpha` determines the convex combination of the lasso and group lasso penalties, and `lambda` is lambda.min relative to lambda.max or the lambda sequence for the regularization path. Details of the tuning paramters can be found in R package `lsgl`. Details of the return values of `ASGL_ZI` can be found in the R code document.
 ```
