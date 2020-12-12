@@ -1,5 +1,5 @@
-# ASGL_SCZI
-Adaptive sparse group lasso regularized semi-continuous zero-inflated model
+# Adaptive sparse group lasso regularized semi-continuous zero-inflated model
+
 
 This repo includes R codes to demonstrate the adaptive sparse group lasso regularized semi-continuous zero-inflated model. 
 
